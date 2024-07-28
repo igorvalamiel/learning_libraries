@@ -1,0 +1,10 @@
+A library that allows you to create multidimentional arrays (1D, 2D, 3D, 4D ...)
+
+Main differences between NunPy and Lists:
+- NunPy is faster because it uses _Fixed Types_ for each array
+- Faster to read less bytes of memory
+- No type checking when iterating through objects
+- NunPy analysis *Contiguous Memory* (the blocks of information of the list are necessarely in sequence, next to each other)
+
+Bibliography
+- https://youtu.be/QUT1VHiLmmI?si=fXusGi_V_zAGa_cR 
