@@ -117,3 +117,36 @@ test = np.ones((5,5))
 test[1:4, 1:4] = 0
 test[2,2] = 9
 print(test)
+
+#copying arrays
+f = np.array([1,2,3])
+f_copy = f.copy()
+f_copy[0] = 100
+print(f)
+print(f_copy)
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## MATHEMATICS ##
+
+g = np.array([1,2,3,4])
+print(g)
+print(g+2)
+print(g-2)
+print(g*2)
+print(g/2)
+print(g**2)
+
+g2 = np.array([1,0,1,0])
+print(g+g2)
+
+#trigonometry
+print(np.sin(a))
+print(np.cos(a))
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## LINEAR ALGEBRA ##
+
+
